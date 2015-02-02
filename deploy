@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+printf "Creating JS release: dist/parsely.min.js\n"
+grunt
+printf "\n\nPushing to git\n"
+git push origin master
+
+printf "\n\nYou'll now have to trigger a pull from CloudFront via their dashboard https://www.cloudflare.com/app-signup"

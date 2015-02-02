@@ -11,6 +11,6 @@ Run `npm install` to install all required packages (Grunt, etc).
 
 #### Building / deploying
 
-1. Make changes as needed to `src/parsely.js` and run `grunt` or `grunt default` to
-   build `dist/parsely.min.js`.
-2. Commit all changes and push repo.
+1. Ensure versions are incremented in `package.json` and `cloudflare.json`.
+2. Run `./deploy` which will create a JS distribution and push it to GitHub.
+3. Ask CloudFlare to pull the new version via [their dashboard](https://www.cloudflare.com/app-signup)
