@@ -1,0 +1,39 @@
+{
+    "name": "Parse.ly",
+    "description": "Adds Parse.ly JavaScript to your website.",
+    "category": "analytics",
+    "version": "0.0.1",
+    "main": "./src/parsely.min.js",
+    "contributors": [
+        {
+            "name": "Mike Sukmanowsky",
+            "email" "mike@parsely.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Parsely/CF-Parsely.git"
+    },
+    "config": {
+        "assets": {
+            "logos": {
+                "200px": "https://s3.amazonaws.com/parsely_static/cloudflare/parsely-logo-large-2x.png",
+                "132px": "https://s3.amazonaws.com/parsely_static/cloudflare/parsely-logo-small-2x.png"
+            },
+        },
+        "details": {
+            "Language": "English",
+            "Price": "Free Trial",
+            "TOS": "http://www.parsely.com/product-terms/",
+            "has_js": true
+        },
+        "interface": [
+            {
+                "type": "String",
+                "id": "apikey",
+                "name": "API Key",
+                "description": "Your Parse.ly API key"
+            }
+        ]
+    }
+}
