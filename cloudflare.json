@@ -2,7 +2,7 @@
     "name": "Parse.ly",
     "description": "Adds Parse.ly JavaScript to your website.",
     "category": "analytics",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "./src/parsely.min.js",
     "contributors": [
         {
@@ -17,8 +17,8 @@
     "config": {
         "assets": {
             "logos": {
-                "200px": ".public/images/parsely-200.png",
-                "132px": ".public/images/parsely-132.png"
+                "200px": ".public/images/apps/parsely-200.png",
+                "132px": ".public/images/apps/parsely-132.png"
             }
         },
         "details": {
