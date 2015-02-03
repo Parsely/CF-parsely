@@ -2,7 +2,7 @@
     "name": "Parse.ly",
     "description": "Adds Parse.ly JavaScript to your website.",
     "category": "analytics",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "./src/parsely.min.js",
     "contributors": [
         {
