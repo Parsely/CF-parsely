@@ -17,8 +17,8 @@
     "config": {
         "assets": {
             "logos": {
-                "200px": ".public/images/parsely-logo-large-2x.png",
-                "132px": ".public/images/parsely-logo-small-2x.png"
+                "200px": ".public/images/parsely-200.png",
+                "132px": ".public/images/parsely-132.png"
             }
         },
         "details": {
