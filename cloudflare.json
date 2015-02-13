@@ -2,7 +2,7 @@
     "name": "Parse.ly",
     "description": "Adds Parse.ly JavaScript to your website.",
     "category": "analytics",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "./src/parsely.min.js",
     "contributors": [
         {
@@ -23,15 +23,16 @@
         },
         "details": {
             "Language": "English",
-            "Price": "Free Trial",
+            "Price": "No additional charge. For existing Parse.ly customers.",
             "TOS": "http://www.parsely.com/product-terms/",
             "has_js": true
         },
         "interface": [
             {
-                "type": "String",
+                "type": "string",
                 "id": "apikey",
                 "name": "API Key",
+                "required": "true",
                 "description": "Your Parse.ly API key"
             }
         ]
